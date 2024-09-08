@@ -56,18 +56,16 @@ if(isset($_POST['login'])) {
       rel="stylesheet"
     />
 
-    <style>
-    w{
-        color:red;
-      }
-    </style>
     </head>
     <body>
 
 
     <!-- Section: Design Block -->
-    <section class="background-radial-gradient overflow-hidden">
+    <section class="background-radial-gradient overflow-hidden" style="height: 737px;">
       <style>
+       w{
+        color:red;
+      }
         .background-radial-gradient {
           background-color: hsl(218, 41%, 15%);
           background-image: radial-gradient(650px circle at 0% 0%,
@@ -113,14 +111,11 @@ if(isset($_POST['login'])) {
         <div class="row gx-lg-5 align-items-center mb-5">
           <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
             <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-              The best offer <br />
-              <span style="color: hsl(218, 81%, 75%)">for your business</span>
+              Login Untuk Mengakses<br/>
+              <span style="color: hsl(218, 81%, 75%)">Halaman Admin</span>
             </h1>
             <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Temporibus, expedita iusto veniam atque, magni tempora mollitia
-              dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-              ab ipsum nisi dolorem modi. Quos?
+            Selamat datang di halaman login Admin kami. Masukkan Username dan Password Anda di bawah ini untuk mengakses panel administrasi dan mengelola berbagai fitur serta data situs. Pastikan informasi yang Anda masukkan akurat untuk menjaga keamanan dan integritas sistem.
             </p>
           </div>
 
